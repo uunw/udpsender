@@ -3,7 +3,7 @@ import socket
 from time import time
 from typing import List
 from zlib import crc32
-from .utils import *
+from udpsender import *
 
 
 class Client:

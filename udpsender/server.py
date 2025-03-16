@@ -5,7 +5,7 @@ from time import time
 from typing import List, OrderedDict, Tuple, Union
 from zlib import crc32
 
-from .utils import *
+from udpsender import *
 
 
 class Server:

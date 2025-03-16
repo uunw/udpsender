@@ -1,7 +1,7 @@
 import sys
 
 from udpsender.server import Server
-from udpsender.utils import logging
+from udpsender import logging
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
