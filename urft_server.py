@@ -1,6 +1,6 @@
 import sys
 
-from udpsender.server import Server
+from udpsender import Server
 from udpsender import logging
 
 if __name__ == "__main__":
